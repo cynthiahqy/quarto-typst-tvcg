@@ -1,0 +1,3 @@
+[submodule "ieee-vgtc-typst"]
+	path = ieee-vgtc-typst
+	url = https://github.com/ieeevgtc/ieee-vgtc-typst.git
