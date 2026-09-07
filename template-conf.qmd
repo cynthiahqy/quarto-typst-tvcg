@@ -3,7 +3,6 @@ format: ieee-vgtc-typst+conf
 review: false
 submission-id: 1234
 category: "Research"
-paper-type: "algorithm/technique"
 title: "Global Illumination for Fun and Profit"
 abstract: "`lorem(150)`{=typst}... A free copy of this paper and all supplemental materials are available at https://OSF.IO/2NBSG."
 authors:

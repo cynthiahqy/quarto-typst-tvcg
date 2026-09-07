@@ -1,4 +1,4 @@
-#import "@preview/ieee-vgtc:0.0.2": journal
+#import "@preview/ieee-vgtc:0.0.4": journal
 
 #show: journal.with(
   // Set review: true to enable review mode (hides authors, shows submission info)
@@ -11,8 +11,8 @@
   $if(category)$
   category: "$category$",
   $endif$
-  $if(paper-type)$
-  paper-type: "$paper-type$",
+  $if(narrow-doi)$
+  narrow-doi: $narrow-doi$,
   $endif$
   $if(title)$
   title: [$title$],
